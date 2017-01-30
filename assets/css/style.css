@@ -1,0 +1,40 @@
+body{
+	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+
+}
+
+.header h1{
+	color: #ffffff;
+	background-color: #4aaaa5;
+	
+}
+
+.header ul{
+	display: inline;
+	text-decoration: none;
+}
+
+.container{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.main-bio
+.contact-info
+#bio-pic{
+	float: left;
+}
+
+.main-bio{
+	width: 70%;
+}
+
+.contact-info{
+	width: 30%;
+}
+
+#bio-pic{
+	
+}

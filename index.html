@@ -7,33 +7,57 @@
 </head>
 <body>
 	<div class="header">
-		<h1>Guillermo Lopez</h1>
-		<ul class="nav">
-			<li><a href="index.html">About</a></li>
-			<li><a href="portfolio.html">Portfolio</a></li>
-			<li><a href="contact.html">Contacts</a></li>
-		</ul>
+		<div class="cover">
+			<div class="header-logo header--pull-left">
+				<h1 class="logo-text">Guillermo Lopez</h1>
+			</div>
+			<nav class="first-nav first-nav--pull-right first-nav--bg">
+			<ul>
+				<li><a href="index.html">About</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">Contacts</a></li>
+			</ul>
+			</nav>
+		</div>
 	</div>
 	<div class="container">
-		<section class="main-bio">
-			<h2>About</h2>
-			<br>
-			<img id="bio-pic" src="https://scontent.fsnc1-2.fna.fbcdn.net/v/t31.0-8/10005799_10203430487024221_7367939586200647031_o.jpg?oh=0b98baac5eeebc50eef1decd396fbe18&oe=590228CB"/ width= "200px" height="200px"/>
-			<p>I took a vaction to puerto rico. During, my vaction I got to tour a naval fort that protected puerto rico ememeies. The best part about the naval fort was the view of the ocean. I was impressed by the size of the fort. </p>
-			<p>On my vaction to puerto rico, I got to tour a the Bacardi distillery. Bacardi was founded in Cuba but made it way into puerto rico. On the tour I got to see the oak barrel that rum distilled in. Plus, I got to try a couple samples of the best Barcadi Rum.</p>
-		</section>
-		<section class="contact-info">
-			<h2>Connect with me</h2>
-			<a href="#"><img src="data:image/png;base64,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"/>
-			</a>
-			<a href="#"><img src="data:image/png;base64,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"/>
-			</a>
-			<a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQoAAAC9CAMAAAB8rcOCAAAAZlBMVEX///87V50mSZfY3Og0Upt1hbQfRZXR1uT8/P3V2ec4VZwuTplGYKIZQpShq8sWQJPw8vdSaaa3v9eXo8a/xtvm6fFBXKAAL40ANo+Jl79pe68JO5Fzg7SvuNLJz+Foe7CmsM6cp8gTwRxlAAACOklEQVR4nO3d607jMBRFYRJCpti90TYMZUiB939JBind1CaJsGaiqD7r+ws6kpeguVhyb24AAAAAAAAAAAAAAAAAAAAAAAAs267vJrHezr2yVLuVrybhV7u515bmtCkmsznNvbokSzddCrece3Upmnq6EkVRN3OvL8FtOWWK8nbu9SUghZBCSCGkEFIIKYQU8s8pXOXP/j53uPDe1U4K58vy9bhud7u2fXvfH+9eH6qghZUUrizevy01nGckhX889My7t5fC1fveeQZTlL/655lL4QbXaC5FPfA3YS+F7/+c+GQshXscnmcsRdl3Fe0YS+FG5tlK4dcj82ylGF2frRTV2DxTKaqXeEazf/B1JxyXeYpvNxWHlXcDW2y5p2jDCc1meKsx8xTxXcWxGvndzFNEzx9j+8/GUpSk6CzGtuJJQQpSkKJDCiGFkEJIIdZSuPrLU5Tid30p9510N/Y2M5R9itEXV5eifxfLKZrc32L9PMXJk6LTkuJsH77SspzihRRnSy6mZ9E0wym20V244RTxNMMpDuG11HKKt/xT/PRxLN4pyy9F4covf6KH9KeLn8V7hhmmCJZn+9UNKUhBClKQokMKIYWQQkghpBBSCCmEFEIKIYWQQkghpBBSCCmEFEIKIYWQQkghpBBSCCmEFEIKST+xOSXFVZ3YnH6Od0KK6zrHO/1094QUV3a6e/KZ/9HxYItNNmf+J38TxHP4Ubh4zuebIAAAAAAAAAAAAAAAAAAAAAAAAP6rDyNmMalivKBrAAAAAElFTkSuQmCC"/>
-			</a>
-		</section>
+		<div class="cover cover--padding-top-bottom">
+			<section class="main main-bg main--pull-left main--size-md">
+				<h2 class="main-title main-title--center-md">About</h2>
+				<hr/>
+				<div class="main-bio">
+					<img id="bio-pic" src="https://scontent.fsnc1-2.fna.fbcdn.net/v/t31.0-8/10005799_10203430487024221_7367939586200647031_o.jpg?oh=0b98baac5eeebc50eef1decd396fbe18&oe=590228CB"/ width= "200px" height="200px"/>
+					<p class="bio">
+					I took a vaction to puerto rico. During, my vaction I got to tour a naval fort that protected puerto rico. The best part about the naval fort was the view of the ocean. Also, I was impressed by the size of the fort. 
+					</p>
+					<br/>
+					<p class="bio">
+					On my vaction to puerto rico, I got to tour a the Bacardi distillery. Bacardi was founded in Cuba but made it way into puerto rico. On the tour I got to see the oak barrel that rum distilled in. Plus, I got to try a couple samples of the best Barcadi Rum.
+					</p>
+				</div>
+			</section>
+			<aside class="sidebar sidebar-bg sidebar--pull-right sidebar--size-md">
+				<h2 class="sidebar-title">Connect with me</h2>
+				<hr/>
+				<ul>
+				<li>
+				<a href="#"><img src="assets/images/1485963358_social_media_logo_github.svg"/>
+				</a>
+				</li>
+				<li>
+				<a href="#"><img src="assets/images/1485963602_linkedin.png"/>
+				</a>
+				</li>
+				<li>
+				<a href="#"><img src="assets/images/1485963548_stackoverflow.png"/>
+				</a>
+				</li>
+			</aside>
+		</div>
 	</div>
-	<footer>
-		<p>@ Copyright 2017 Guillermo Lopez</p>
+	<footer class="footer text-center">
+		<div class="footer-ascent"></div>
+		<p>&copy; Copyright 2017 Guillermo Lopez</p>
 	</footer>
 	
 </body>

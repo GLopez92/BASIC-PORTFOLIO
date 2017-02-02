@@ -7,7 +7,7 @@ body p{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-h1{
+h1 h3{
 	width: 30%;
     float: left;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -269,6 +269,18 @@ h2{
 	opacity: 0.30; 
 }
 
+.port h3{
+	 position: absolute;
+    bottom: 0px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 10px 35px 10px 40px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 10px;
+    width: 75px;
+}
+
 .port::after{
 	content: "";
 	clear: both;
@@ -276,31 +288,42 @@ h2{
 }
 
 .port .port-card{
-	float: left;
 	margin: 20px 0 0 20px;
 	width: 48%;
 	position: relative;
+   
 
 }
 
 .port .port-card:nth-child(even){
 	float: right;
+	bottom: 120px;
+}
+
+.port img{
+	height: 100px;
+    width: 150px;
+
+   
+    
 }
 
 .port .port_card--img{
-	width: 100%;
-	height: 200px;
+	height: 105px;
+    width: 150px;
+    
 }
 
 .port .port-card--strip{
 	position: absolute;
-	width: 100%;
+	width: 150px;
 	bottom: 10px;
 	text-align: center;
 	background-color: #4aaaa5;
 	color: #fff;
 	padding: 20px 0;
 }
+
 .contact_form input[type="text"], .contact_form textarea{
 	width: 100%;
 	border: 1px solid #ccc;
